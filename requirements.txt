@@ -1,0 +1,5 @@
+schedule
+requests
+setuptools
+wheel
+adafruit-circuitpython-dht
