@@ -13,3 +13,9 @@ sudo pip3 install -r requirements.txt
 ```bash
 sudo env LINE_NOTIFY_TOKEN=＜LINE 通知トークン＞ python3 src/main.py
 ```
+
+## 常時起動方法
+
+```bash
+nohup sudo env LINE_NOTIFY_TOKEN=＜LINE 通知トークン＞ python3 src/main.py &
+```
